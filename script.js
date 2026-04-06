@@ -12,4 +12,8 @@ const secaAgenda = document.querySelector("#agenda");
   if(secaoContato){
     secaoContato.classList.add(contato-box);
   }
+
+  //seleciona links do menu
+  const linksMenu = document.querySelector("nav a");
+  const secoes = document.querySelectorAll("section[id]");
 });
